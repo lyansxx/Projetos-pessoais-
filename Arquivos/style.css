@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    background-color: #031010;
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: 01.rem solid rgba(255, 255, 255, 0.3);
+    background-color: #031010;
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1rem;
+    color: #fff;
+
+}
+
+.navbar a:hover {
+    color: #d3ad7f;
+    border-bottom: 0.1rem solid #d3ad7f;
+    padding-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.icons img {
+    margin: 0.7rem;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    background-color: #d3ad7f;
+    color: #fff;
+    padding: 0.3rem 0.7rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: 400px;
+}
+
+.btn:hover{
+    letter-spacing: 0.09rem;
+}
+
+.home-container {
+    background: url("./home-img.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 60rem;
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.content p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.8rem;
+    padding: 1rem 0;
+}
+
+.title{
+    font-size: 2rem;
+    color: #d3ad7f;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.title span{
+    color: #fff;
+    text-transform: uppercase;
+}
+.About .row {
+     display: flex;
+     align-items: center;
+     background-color: #13131a;
+     gap: 1.5rem;
+}
+
+.About .row  .content {
+    padding: 2rem;
+
+}
+
+.About .row  .content h3{
+    font-size: 1.8rem;
+    color: #fff;
+
+}
+
+.About .row  .content p{
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.8rem;
+
+}
+
+.About .row  .content a{
+    border-radius: 40px;
+}
+
+.About .row  .content a:hover{
+    letter-spacing: 0.09rem;
+}
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas fixas */
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .box {
+    background-color: #031010;
+    padding: 1rem;
+    min-height: 200px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+  }
+
+  .box:hover{
+    background-color: #272424;
+
+}
+
+
+.Menu .box-container .box img{
+    height: 5rem;
+}
+
+.Menu .box-container .box h3{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.Menu .box-container .box .price {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.Menu .box-container .box .price span{
+    font-size: 1rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+  }
+
+  .Review  .box-container .box{
+    border: solid 1px #ffffff;
+    text-align: center;
+    padding: 0.7rem 0.5rem;
+
+  }
+
+  .Review  .box-container .box p{
+    font-size: 1rem;
+    color: #fff;
+    padding: 2rem 0;
+    line-height: 1.5rem;
+    font-weight: lighter;
+    
+  }
+
+  .Review  .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+  .Review  .box-container .box .user{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+  }
+
+  .address{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .footer .Share{
+    padding: 1rem 0;
+  }
+
+  .footer .Share img{
+    margin: 03.rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+
+  .footer .Share img:hover{
+    background-color: #d3ad7f;
+  }
