@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(173, 183, 201);
+  background-color: #185269;
   color: #ffffff;
   line-height: 1.6;
   padding: 0;
@@ -62,7 +62,7 @@ section.about {
 
 .content h3 {
   font-size: 2.5rem;
-  color: #002a80;
+  color: #fcfffd;
   margin-bottom: 24px;
   font-weight: 700;
 }
@@ -70,7 +70,7 @@ section.about {
 .content p {
   font-size: 1.2rem;
   margin-bottom: 20px;
-  color: #002a80;
+  color: #fcfffd;
   line-height: 1.8;
 }
 
