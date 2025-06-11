@@ -1,0 +1,124 @@
+/* Reset e Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(173, 183, 201);
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 0;
+}
+
+/* Seção Principal */
+section.about {
+  padding: 120px 40px;
+  background: linear-gradient(160deg, #166088 70%, #002a80 100%);
+  color: #ffffff;
+  border-top: 6px solid #ffba08;
+  border-bottom: 6px solid #ffba08;
+}
+
+.title {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #ffba08;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+  position: relative;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 6px;
+  background-color: #ffba08;
+  margin: 16px auto 0;
+  border-radius: 4px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: auto;
+  gap: 60px;
+}
+
+.content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 700px;
+}
+
+.content h3 {
+  font-size: 2.5rem;
+  color: #002a80;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #002a80;
+  line-height: 1.8;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffba08;
+  color: #002a80;
+  padding: 16px 36px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(255, 195, 0, 0.4);
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ecb937;
+  transform: scale(1.05);
+  box-shadow: 0 8px 22px rgba(255, 195, 0, 0.6);
+}
+
+.container-img {
+  flex: 1;
+  text-align: center;
+}
+
+.container-img img {
+  width: 100%;
+  max-width: 560px;
+  border-radius: 16px;
+  border: 6px solid #ffba08;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.container-img img:hover {
+  transform: scale(1.06);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
+}
+
+
+
+  .content p {
+    font-size: 1.1rem;
+  }
+
+  .container-img img {
+    max-width: 380px;
+  }
+
