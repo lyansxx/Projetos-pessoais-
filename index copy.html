@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto 1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#conteudo" class="chip" style="position:absolute; left:-9999px;">Pular para o conteúdo</a>
+<p>Fale com a nossa equipe ou visite o centro Leite Mama em São Paulo.</p>
+</header>
+<div class="grid-2">
+<div class="card">
+<form method="post" action="mailto:contato@leitemama.org" aria-label="Formulário de contato">
+<div>
+<label for="nome">Nome</label>
+<input id="nome" name="nome" required placeholder="Seu nome" />
+</div>
+<div>
+<label for="email">E-mail</label>
+<input id="email" type="email" name="email" required placeholder="seuemail@exemplo.com" />
+</div>
+<div>
+<label for="assunto">Assunto</label>
+<select id="assunto" name="assunto" required>
+<option value="">Selecione…</option>
+<option>Doação financeira</option>
+<option>Doação de leite materno</option>
+<option>Voluntariado</option>
+<option>Parcerias</option>
+<option>Outros</option>
+</select>
+</div>
+<div>
+<label for="mensagem">Mensagem</label>
+<textarea id="mensagem" name="mensagem" placeholder="Como podemos ajudar?"></textarea>
+</div>
+<button class="btn" type="submit">Enviar</button>
+</form>
+<p class="stack-m" style="margin-top:1rem; color:var(--muted)">
+<span>Ou fale pelo WhatsApp:</span>
+<a class="btn ghost" href="https://wa.me/5500000000000" target="_blank" rel="noopener">Abrir WhatsApp</a>
+</p>
+</div>
+<div class="card">
+<h3>Centro Leite Mama — São Paulo</h3>
+<p>Endereço (exemplo): R. Exemplo, 123 — Bairro, São Paulo — SP<br>CEP 00000-000</p>
+<div style="aspect-ratio: 4/3; width:100%; border-radius:1rem; overflow:hidden; border:1px solid var(--border);">
+<iframe title="Mapa do Centro Leite Mama em São Paulo" width="100%" height="100%" style="border:0;"
+loading="lazy" allowfullscreen
+referrerpolicy="no-referrer-when-downgrade"
+src="https://www.google.com/maps?q=Centro+Leite+Mama+São+Paulo&output=embed"></iframe>
+</div>
+<p class="stack-s" style="margin-top:.75rem">
+<a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Centro+Leite+Mama+São+Paulo" target="_blank" rel="noopener">Abrir no Google Maps</a>
+<a class="btn ghost" href="#home">Como chegar</a>
+</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+
+<footer class="footer" role="contentinfo">
+<div class="container stack-m" style="justify-content:space-between; flex-wrap:wrap;">
+<p>© <span id="ano-atual">2025</span> Leite Mama. Todos os direitos reservados.</p>
+<p>
+<a href="#sobre">Sobre</a> ·
+<a href="#doar">Doe</a> ·
+<a href="#contato">Contato</a>
+</p>
+</div>
+</footer>
+    
+</body>
+</html>

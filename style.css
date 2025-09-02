@@ -1,0 +1,137 @@
+/* =======================
+   Estilo Global
+======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* =======================
+   Navbar
+======================= */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e63946;
+  padding: 15px 30px;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: #ffd166;
+}
+
+/* =======================
+   Seções
+======================= */
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+section:nth-child(even) {
+  background: #fff;
+}
+
+section:nth-child(odd) {
+  background: #f8f9fa;
+}
+
+section h1, section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e63946;
+}
+
+section p {
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* =======================
+   Botão
+======================= */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #e63946;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #d62828;
+}
+
+/* =======================
+   Mapa
+======================= */
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.map-container iframe {
+  border: 0;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  height: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* =======================
+   Footer
+======================= */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
